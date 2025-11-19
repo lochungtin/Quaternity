@@ -3,7 +3,6 @@ const shuffler = arr => {
     let count = arr.length;
     for (let i = 0; i < count; ++i)
         out.push(arr.splice(Math.floor(Math.random() * arr.length), 1)[0]);
-
     return out;
 }
 
