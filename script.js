@@ -21,7 +21,6 @@ const remap = () => {
     }
 
     arr = shuffler(arr)
-    console.log(arr)
     for (let i = 0; i < 25; ++i) {
         let cell = document.getElementById(i.toString())
         for (let j = 0; j < 4; ++j)
